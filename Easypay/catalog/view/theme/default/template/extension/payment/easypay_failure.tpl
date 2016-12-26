@@ -1,0 +1,7 @@
+<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
+<div id="content"><?php echo $content_top; ?>
+<div style="text-align:center;">
+  <div style="color:#D1001D; font-size:20px; font-weight:bold;">Ошибка оплаты счета</div>
+</div>
+  <?php echo $content_bottom; ?></div>
+<?php echo $footer; ?>
