@@ -1,3 +1,33 @@
+# OpenCart 2.3.x.
+Requirements:
+1. OpenCart 2.3.x (Ocstore 2.3.x)
+
+Installing the module for payment of the ERIP:
+1. Copy the contents of the ERIP folder in the OpenCart root directory.
+2. In the control panel go to "Modules (Extensions) -> Payment (Payments) -> Erip (ERIP)", click "Activate (Install)".
+3. After that, select "Edit (Edit)" and enter your data in the field. In the "Status" field (Status), "select" enabled (Enabled) and save.
+ADDITIONALLY
+1. To automatically update payments status,
+We inform the EasyPay administration address to deliver Online notifications,
+View - "http: // [Address__sight] /index.php?Route=Extension/Payment/erip/Notify".
+2. Payment is possible only in Belarusian rubles.
+
+Installing a module for payment Visa, MasterCard:
+1. Copy the contents of the "EasyPay" folder in the OpenCart root directory.
+2. In the control panel go to "Modules (Extensions) -> Payment (Payments).
+We find "Visa, MasterCard" and click "Activate (Install)".
+After that, select "Edit (Edit)" and enter your data in the field. In the "Status" field (Status), "select" enabled (Enabled) and save.
+
+ADDITIONALLY
+1. To automatically update payments status,
+We inform the EasyPay administration address to deliver Online notifications,
+View - "http: // [Address__sight] /index.php?Route=Extension/payment/easyPay/notify."
+2. Payment is possible only in Belarusian rubles.
+
+Tested on OpenCart 2.3.0.2, Ocstore 2.3.0.2
+
+----------------
+
 # OpenCart 2.3.x
 ТРЕБОВАНИЯ:
 1. OpenCart 2.3.x (ocStore 2.3.x)
